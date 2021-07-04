@@ -1,0 +1,412 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.col-1 {width:8.33%;}
+.col-2 {width:16.66%;}
+.col-3 {width:25%;}
+.col-4 {width:33.33%;}
+.col-5 {width:41.66%;}
+.col-6 {width:50%;}
+.col-7 {width:58.33%;}
+.col-8 {width:66.66%;}
+.col-9 {width:75%;}
+.col-10 {width:83.33%;}
+.col-11 {width:91.66%;}
+.col-12 {width:100%;}
+[class*="col-"] {float: left;}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: monospace;
+}
+
+/*----------------------------------------------------------------------------------------------  HEADER  -----------------*/
+
+.header_img {
+    float: left;
+    height: 100%;
+}
+
+.header_2 {
+    height: 110px;
+    background-color: black;
+    border-bottom: 2px solid white;
+}
+
+.header_text_2 {
+    float:left;
+    height: 100%;
+    text-shadow: 1px 1px 1px white;
+    font-size: 30px;
+    font-style: oblique;
+    color: darkslategrey;
+    font-family: sans-serif;
+}
+
+/*----------------------------------------------------------------------------------------------  FOOTER  -----------------*/
+
+.footer {
+    height: 350px;
+    background-color: black;
+    color: white;
+    font-size: xx-large;
+}
+
+.footer_sub_div {
+    height: 90%;
+}
+
+.footer_left {
+    position: relative;
+    left: 10%;
+    top: 15%;
+    height: 23%;
+}
+
+.footer_right {
+    position: relative;
+    top: 60%;
+    left: 5%;
+}
+
+.footer_links {
+    height: 70px;
+    text-align: center;
+}
+
+.footer_bottom {
+    text-align: center;
+    color: grey;
+    font-size: medium;
+}
+
+/*----------------------------------------------------------------------------------------  NAVIGATION  -----------------*/
+
+.navigation {
+    height: 100%;
+    background-color: black;
+}
+
+.navigation_links {
+    text-decoration: none;
+    font-size: x-large;
+    color: white;
+    position: relative;
+    top: 35%;
+}
+
+.navigation_links_div {
+    float: right;
+    text-align: center;
+    height: 100%;
+}
+
+.navigation_links_div:hover {
+    background-color: darkslategrey;
+    text-align: center;
+}
+
+.navigation_logout_div {
+    float: right;
+    text-align: center;
+    height: 100%;
+}
+
+.navigation_logout_div:hover {
+    background-color: red;
+    text-align: center;
+}
+
+.dropdown {
+    display: none;
+}
+
+/*--------------------------------------------------------------------------------------  SIGNUP/LOGIN PAGE  -----------------*/
+
+.signup_main {
+    padding-left: 17%;
+    padding-right: 17%;
+    padding-bottom: 4%;
+    padding-top: 2%;
+    background-color: rgb(38, 38, 38);
+}
+
+.signupcontainer {
+    background: white;
+    width: 60%;
+    margin-left: 20%;
+    font-size: larger;
+    padding: 3%;
+    border-radius: 12%;
+}
+
+.signup_sub {
+    width: 80%;
+    margin-left: 10%;
+    height: 10vh;
+    margin-bottom: 3vh;
+    color: white;
+    font-size: 28px;
+    color: rgb(38, 38, 38);
+    
+}
+
+.signup_sub1 {
+    width: 100%;
+    padding: 2%;
+    height: 50%;
+    color: white;
+    font-size: 28px;
+    color: rgb(38, 38, 38);
+}
+
+.signup_sub2 {
+    width: 100%;
+    padding: 2%;
+    height: 50%;
+    color: white;
+    font-size: 28px;
+    color: rgb(38, 38, 38);
+    
+}
+
+.signup_submit_btn_div {
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.signup_cancel_btn_div {
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.signupbtn {
+    padding: 3%;
+    width: 70%;
+    height: 70%;
+    background-color: rgb(38, 38, 38);
+    color: white;
+    font-size: large;
+    margin-top: 2vh;
+}
+
+.signupbtn:hover {
+    background-color: darkslategrey;
+}
+
+.signup_top{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding: 2%;
+    height: 12vh;
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 3vh;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    background-color: rgb(38, 38, 38);
+}
+
+.already_acc_text {
+    font-size: xx-large;
+}
+
+.login_alert {
+    width: 80%;
+    margin-left: 10%;
+    height: 6vh;
+    margin-bottom: 3vh;
+    background-color: white;
+    font-size: 18px;
+    color: red;
+}
+
+/*--------------------------------------------------------------------------------  HOME PAGE  -----------------*/
+
+.home {
+    width: 100%;
+    height: 700px;
+    background-color: blanchedalmond;
+}
+
+.homebody {
+    height: 100vh;
+    background-color: rgb(38, 38, 38);
+    padding: 3%;
+}
+
+.home_content {
+    background-color: white;
+    height: 50%;
+    padding-top: 4%;
+    border: 1px solid lightgrey;
+}
+
+.content1 {
+    font-size: 35px;
+    color: darkslategrey;
+    text-align: center;
+    height: 30%;
+}
+
+.content2 {
+    height: 30%;
+    text-align: center;
+    font-size: large;
+}
+
+.content3 {
+    color: white;
+    background-color: rgb(38, 38, 38);;
+    width: 30%;
+    height: 20%;
+    position: relative;
+    left: 35%;
+    padding-left: 10%;
+    padding-top: 3%;
+}
+
+.content3:hover {
+    background-color: darkslategray;
+    color: black;
+    
+}
+
+.content_links {
+    text-decoration: none;
+    width: 30%;
+    font-size: x-large;
+}
+
+/*------------------------------------------------------------------------------------  ABOUT PAGE  -----------------*/
+
+.about {
+    
+    background-color: whitesmoke;
+    border-bottom: 2px solid white;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.about_heading {
+    height: 5vh;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(38, 38, 38);
+    border-bottom: 2px solid rgb(38, 38, 38);
+    border-top: 2px solid rgb(38, 38, 38);
+    text-align: center;
+    background-color: lightgrey;
+}
+
+.about_para {
+    font-size: larger;
+    padding: 2%;
+    text-align: center;
+}
+
+/*--------------------------------------------------------------------  FILLUP/SERVICE/EXPENSES PAGE  -----------------*/
+
+.page_top {
+    text-align: center;
+    font-size: 30px;
+    padding: 2%;
+    height: 120px;
+    border-top: 2px solid white;
+    background-color: rgb(38, 38, 38);
+}
+
+.top_text {
+    height: 100%;
+    float: left;
+    color: white;
+    font-family: monospace;
+    padding-top: 1%;
+}
+
+.top_img_div {
+    height: 90%;
+    float: left;
+    margin-left: 30vw;
+}
+
+.top_img {
+    height: 100px;
+}
+
+.data_form_button {
+    padding: 3%;
+    width: 30%;
+    background-color: rgb(38, 38, 38);
+    color: white;
+    font-size: large;
+    margin-left: 40%;
+    cursor: pointer;
+}
+
+.data_form_button:hover {
+    background-color: darkslategrey;
+}
+
+.fillup_main {
+    padding-left: 17%;
+    padding-right: 17%;
+    padding-bottom: 4%;
+    padding-top: 2%;
+    background-color: rgb(38, 38, 38);
+}
+
+.data_forms {
+    border: 1px solid black;
+    width: 100%;
+    padding: 5%;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.data_forms_sub1 {
+    width: 50%;
+    padding: 2%;
+    height: 100%;
+    color: white;
+    font-size: 28px;
+    color: rgb(38, 38, 38);
+    float: left;
+}
+
+.data_forms_sub2 {
+    float: left;
+    width: 50%;
+    padding: 2%;
+    height: 100%;
+    color: white;
+    font-size: 28px;
+    color: rgb(38, 38, 38);
+}
+
+.data_forms_sub {
+    width: 60%;
+    margin-left: 10%;
+    height: 13vh;
+    color: white;
+    font-size: 28px;
+    color: rgb(38, 38, 38);
+}
+
+.data_forms_input {
+    background-color: rgb(38, 38, 38);
+    color: white;
+    text-align: center;
+    font-size: large;
+    height: 40px;
+    width: 100%;
+    margin-right: 10%;
+}

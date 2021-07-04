@@ -1,0 +1,434 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.col-m-1 {width:8.33%;}
+.col-m-2 {width:16.66%;}
+.col-m-3 {width:25%;}
+.col-m-4 {width:33.33%;}
+.col-m-5 {width:41.66%;}
+.col-m-6 {width:50%;}
+.col-m-7 {width:58.33%;}
+.col-m-8 {width:66.66%;}
+.col-m-9 {width:75%;}
+.col-m-10 {width:83.33%;}
+.col-m-11 {width:91.66%;}
+.col-m-12 {width:100%;}
+[class*="col-"] {float: left;}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/*-------------------------------------------------------------------------------------  HEADER  -----------------*/
+
+.header {
+    height: 110px;
+    background-color: black;
+}
+.header_img {
+    float: left;
+    height: 100%;
+}
+.header_text {
+    margin-top: 15px;
+    float:left;
+    height: 100%;
+    text-shadow: 1px 1px 1px white;
+    font-size: 40px;
+    font-style: oblique;
+    color: darkslategrey;
+    font-family: sans-serif;
+}
+
+.header_2 {
+    height: 110px;
+    background-color: black;
+    border-bottom: 2px solid white;
+}
+
+.header_text_2 {
+    float:left;
+    height: 50%;
+    font-size: 25px;
+    font-style: oblique;
+    color: white;
+    font-family: sans-serif;
+}
+
+/*-------------------------------------------------------------------------------------  FOOTER  -----------------*/
+
+.footer {
+    height: 500px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+}
+
+.footer_sub_div {
+    height: 45%;
+}
+
+.footer_left {
+    position: relative;
+    left: 10%;
+    top: 15%;
+    height: 23%;
+    font-size: medium;
+}
+
+.footer_right {
+    position: relative;
+    top: 20%;
+    left: 5%;
+}
+
+.footer_links {
+    height: 70px;
+    text-align: center;
+}
+
+.footer_bottom {
+    text-align: center;
+    color: grey;
+    font-size: medium;
+}
+
+/*-------------------------------------------------------------------------------------  NAVIGATION  -----------------*/
+
+.navigation {
+    display: none;
+}
+
+.navigation_links {
+    display: none;
+}
+
+.navigation_links_div {
+    display: none;
+}
+
+.navigation_links_div:hover {
+    display: none;
+}
+
+.navigation_logout_div {
+    display: none;
+}
+
+.navigation_logout_div:hover {
+    display: none;
+}
+
+/*dropdown*/
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 36px;
+    border: 1px solid black;
+    cursor: pointer;
+    float: right;
+  }
+  
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+/*Dropdown end*/
+
+/*-------------------------------------------------------------------------------------  LOGIN/SIGNUP PAGE  -----------------*/
+
+.signup_main {
+    background-color: rgb(38, 38, 38);
+    padding-bottom: 10%;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.signupcontainer {
+    background: white;
+    width: 90%;
+    padding: 2%;
+    border-radius: 8%;
+}
+
+.signup_sub {
+    width: 96%;
+    margin-left: 2%;
+    height: 50px;
+    margin-bottom: 25px;
+    color: white;
+    font-size: 18px;
+    color: rgb(38, 38, 38);
+    
+}
+
+.signup_sub1 {
+    width: 100%;
+    padding: 1%;
+    height: 50%;
+    color: white;
+    font-size: 18px;
+    color: rgb(38, 38, 38);
+}
+
+.signup_sub2 {
+    width: 100%;
+    padding: 1%;
+    height: 50%;
+    color: white;
+    font-size: 18px;
+    color: rgb(38, 38, 38);
+}
+
+.signup_submit_btn_div {
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.signup_cancel_btn_div {
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.signupbtn {
+    padding: 2%;
+    width: 90%;
+    height: 70%;
+    background-color: rgb(38, 38, 38);
+    color: white;
+    margin-top: 1vh;
+}
+
+.signupbtn:hover {
+    background-color: darkslategrey;
+}
+
+.signup_top{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding: 2%;
+    height: 50px;
+    width: 40%;
+    margin-left: 20%;
+    margin-bottom: 3vh;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    background-color: rgb(38, 38, 38);
+}
+
+
+.login_alert {
+    width: 92%;
+    margin-left: 4%;
+    height: 30px;
+    margin-bottom: 3vh;
+    background-color: white;
+    font-size: 18px;
+    color: red;
+}
+
+/*-------------------------------------------------------------------------------------  HOME PAGE  -----------------*/
+
+.homebody {
+    height: 300vh;
+    background-color: rgb(38, 38, 38);
+    padding: 3%;
+}
+
+.home_content {
+    background-color: white;
+    height: 16.66%;
+    padding-top: 4%;
+    border: 2px solid rgb(38, 38, 38);
+}
+
+.content1 {
+    font-size: 35px;
+    color: darkslategrey;
+    text-align: center;
+    height: 30%;
+}
+
+.content2 {
+    height: 30%;
+    text-align: center;
+    font-size: large;
+}
+
+.content3 {
+    color: white;
+    background-color: rgb(38, 38, 38);;
+    width: 40%;
+    height: 20%;
+    position: relative;
+    left: 30%;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+.content3:hover {
+    background-color: darkslategray;
+    color: black;
+    
+}
+
+.content_links {
+    text-decoration: none;
+    width: 30%;
+    font-size: x-large;
+}
+
+/*-------------------------------------------------------------------------------------  FILLUP/EXPENSE/SERVICE PAGE  -----------------*/
+
+.page_top {
+    font-size: 16px;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(38, 38, 38);
+    padding-left: 10%;
+}
+
+.top_img_div {
+    height: 95%;
+    width: 20%;
+    float: left;
+}
+
+.top_img {
+    width: 100%;
+    height: 80%;
+}
+
+.top_text {
+    height: 95%;
+    width: 70%;
+    color: white;
+    font-family: monospace;
+    float: left;
+    padding-top: 3%;
+}
+
+.data_form_button {
+    padding: 3%;
+    width: 30%;
+    background-color: rgb(38, 38, 38);
+    color: white;
+    font-size: large;
+    margin-left: 25%;
+}
+
+.data_form_button:hover {
+    background-color: darkslategrey;
+}
+
+.fillup_main {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 4%;
+    padding-top: 2%;
+    background-color: rgb(38, 38, 38);
+}
+
+.data_forms {
+    border: 1px solid black;
+    width: 100%;
+    padding: 5%;
+    border-radius: 7%;
+    background-color: white;
+}
+
+.data_forms_sub1 {
+    width: 100%;
+    height: 50%;
+    color: white;
+    font-size: 28px;
+    color: rgb(38, 38, 38);
+}
+
+.data_forms_sub2 {
+    width: 100%;
+    height: 50%;
+    color: white;
+    font-size: 28px;
+    color: rgb(38, 38, 38);
+}
+
+.data_forms_sub {
+    width: 100%;
+    margin-left: 5%;
+    padding: 2%;
+    height: 15vh;
+    color: white;
+    font-size: 28px;
+    color: rgb(38, 38, 38);
+}
+
+.data_forms_input {
+    background-color: rgb(38, 38, 38);
+    color: white;
+    text-align: center;
+    font-size: large;
+    height: 40px;
+    width: 90%;
+}
+
+/*----------------------------------------------------------------------------------------------  ABOUT PAGE  ------------------*/
+
+.about {
+    
+    background-color: whitesmoke;
+    border-bottom: 2px solid white;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.about_heading {
+    height: 5vh;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(38, 38, 38);
+    border-bottom: 2px solid rgb(38, 38, 38);
+    border-top: 2px solid rgb(38, 38, 38);
+    text-align: center;
+    background-color: lightgrey;
+}
+
+.about_para {
+    font-size: large;
+    padding: 2%;
+    text-align: center;
+}
+
